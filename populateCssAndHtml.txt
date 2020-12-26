@@ -1,7 +1,8 @@
-This will populate your current directory with a html file linked to stylesheet/style.css paste the following into your .bashrc/.zshrc file.
+Add this entry to your .bashrc/.zshrc file. Save it and then run source .bashrc. Then you can run mkhtml to populate
+the working dir with a html file linked to /stylesheets/style.css
 ------------------------------------
 
-echo '<html>
+alias mkhtml='echo "<html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,4 +15,4 @@ echo '<html>
 
 </body>
 </html>
-' > index.html && mkdir stylesheet && touch style.css stylesheet/style.css'
+" > index.html && mkdir stylesheet && touch style.css stylesheet/style.css'
