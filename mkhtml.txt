@@ -1,4 +1,4 @@
-echo '<html> 
+alias mkhtml='echo "<html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,4 +11,4 @@ echo '<html>
 
 </body>
 </html>
-' > index.html && mkdir stylesheet && touch style.css stylesheet/style.css
+" > index.html && mkdir stylesheet && touch stylesheet/style.css'
