@@ -12,3 +12,5 @@ If more tools are added I'll make a easy install script but for now this will do
 ## Use
 
 Type mkhtml in the terminal to populate the files
+
+![Image of directory inside Atom](https://github.com/Nswayze/linuxTools/blob/main/screenshot.png)
