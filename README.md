@@ -12,3 +12,5 @@ If more tools are added I'll make a easy install script but for now this will do
 ## Use
 
 Type mkhtml in the terminal to populate the files
+
+[alt text](https://github.com/[nswayze]/[linuxTools]/blob/[main]/screenshot.jpg?raw=true)
