@@ -1,5 +1,5 @@
 # linuxTools
-##Mkhtml
+## Mkhtml
 
 Adds a generic .html file to your current directory and links it to /stylesheet/style.css.
 
