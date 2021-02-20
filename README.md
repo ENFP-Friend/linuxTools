@@ -27,6 +27,8 @@ Type mkhtml in the terminal to populate the files
 
 Appends the following to a specified file.
 
+```css
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -39,6 +41,7 @@ Appends the following to a specified file.
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+```
 
 ## Install
 
