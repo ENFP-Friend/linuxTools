@@ -45,8 +45,8 @@ Appends the following to a specified file.
 
 ## Install
 
-chmod a+x mkhtml.sh
-sudo cp mkhtml.sh /usr/local/bin
+chmod a+x addcolumns
+sudo cp addcolumns /usr/local/bin
 
 ## Use
 
