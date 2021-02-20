@@ -1,5 +1,6 @@
 # linuxTools
 ----------------------
+
 ## Mkhtml
 
 Adds a generic .html file to your current directory and links it to /stylesheet/style.css.
@@ -20,7 +21,9 @@ Type mkhtml in the terminal to populate the files
 
 ![Image of directory inside Atom](https://github.com/Nswayze/linuxTools/blob/main/screenshot.png)
 --------------------------------------------------
-##Addcolumns
+
+
+## Addcolumns
 
 Appends the following to a specified file.
 
