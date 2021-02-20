@@ -5,7 +5,11 @@ Adds a generic .html file to your current directory and links it to /stylesheet/
 
 ## Install
 
-Copy and paste the text inside the .txt file to your .bshrc/.zshrc file and then source .bshrc/zshrc.
+chmod a+x mkhtml.sh
+sudo cp mkhtml.sh /usr/local/bin
+
+/usr/local/bin is usually in your PATH. You can check it via echo $PATH. Now you can simply do
+mkhtml.sh and it'll execute.
 
 If more tools are added I'll make a easy install script but for now this will do.
 
