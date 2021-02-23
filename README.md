@@ -7,8 +7,8 @@ Adds a generic .html file to your current directory and links it to /stylesheet/
 
 ## Install
 
-chmod a+x mkhtml.sh
-sudo cp mkhtml.sh /usr/local/bin
+chmod a+x mkhtml
+sudo cp mkhtml/usr/local/bin
 
 /usr/local/bin is usually in your PATH. You can check it via echo $PATH. Now you can simply do
 mkhtml.sh and it'll execute.
@@ -67,4 +67,32 @@ Addcolumns Arg1
 
 Example:
 Addcolumns stylesheet/style.css
+
+-------------
+
+
+## analyseHelper.sh
+
+![Bash terminal displaying questions](https://github.com/Nswayze/linuxTools/blob/main/imgs/1.png)
+![Image displaying output as an html file with css](https://github.com/Nswayze/linuxTools/blob/main/imgs/2.png)
+![Demonstration of responsiveness for mobile device](https://github.com/Nswayze/linuxTools/blob/main/imgs/3.png)
+
+Asks you questions to help you think and analyse a problems. Generates the output as "responsive" .html & .css files formatted to also work on mobile devices.
+
+## Install
+
+chmod a+x analyseHelper.sh
+sudo cp analyseHelper.sh /usr/local/bin
+
+/usr/local/bin is usually in your PATH. You can check it via echo $PATH. Now you can simply do
+mkhtml.sh and it'll execute.
+
+If more tools are added I'll make a easy install script but for now this will do.
+
+## Use
+
+Type anaylseHelper.sh in the terminal. Will populate index.html & stylesheet/style.css in the working directory.
+
+
+--------------------------------------------------
 
