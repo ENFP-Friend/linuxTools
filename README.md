@@ -15,13 +15,15 @@ mkhtml.sh and it'll execute.
 
 If more tools are added I'll make a easy install script but for now this will do.
 
+//Credits go to https://www.reddit.com/user/Rusty-Swashplate/ for helping me improve my original https://www.reddit.com/r/linux/comments/kst3dc/mkhtml_i_created_a_tool_to_populate_htmlcss_files/ //
+
 ## Use
 
 Type mkhtml in the terminal to populate the files
 
 ![Image of directory inside Atom](https://github.com/Nswayze/linuxTools/blob/main/imgs/screenshot.png)
 
-Credits go to https://www.reddit.com/user/Rusty-Swashplate/ for helping me improve my original https://www.reddit.com/r/linux/comments/kst3dc/mkhtml_i_created_a_tool_to_populate_htmlcss_files/
+
 --------------------------------------------------
 
 
