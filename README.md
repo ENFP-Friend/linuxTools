@@ -89,7 +89,7 @@ Addcolumns stylesheet/style.css
 ## analyseHelper.sh
 
 ![Bash terminal displaying questions](https://github.com/Nswayze/linuxTools/blob/main/imgs/1.png)
-![Image displaying output as an html file with css](https://github.com/Nswayze/linuxTools/blob/main/imgs/2.png)
+2
 ![Demonstration of responsiveness for mobile device](https://github.com/Nswayze/linuxTools/blob/main/imgs/3.png)
 
 Asks you questions to help you think and analyse a problems based on the method from https://www.criticalthinking.org/pages/the-elements-of-reasoning-and-the-intellectual-standards/480 it takes that input and then generates the output as "responsive" .html & .css files to also display appropriately on mobile devices.
