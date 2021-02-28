@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Simple note-taking script
+#Author Nswayze
+
+printf "\n" >> ~/notes.txt
+date >> ~/notes.txt
+echo "--------------------------------------------" >> ~/notes.txt
+echo $*  >> ~/notes.txt
+
+
