@@ -111,3 +111,10 @@ Type anaylseHelper.sh in the terminal. Will populate index.html & stylesheet/sty
 
 --------------------------------------------------
 
+## tn (short for take note)
+
+Will take an input and date it with it's input to ~/note.txt
+
+## Use 
+
+tn this is a note
