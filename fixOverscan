@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# Force overscan to be turned off on BenQ FP22W. Replace HDMI-1-1 with the monitor displayed using "xrandr" then move script to /usr/local/bin and add exec_always fixOverScan
+
+xrandr --newmode "1920x1080_60.00i"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+xrandr --addmode HDMI-1-1 "1920x1080_60.00i"
+xrandr --output HDMI-1-1 --set audio force-dvi --mode 1920x1080i
+
