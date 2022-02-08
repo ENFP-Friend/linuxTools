@@ -7,8 +7,8 @@ Adds a generic .html file to your current directory and links it to /stylesheet/
 
 ## Install
 
-chmod a+x mkhtml
-sudo cp mkhtml/usr/local/bin
+sudo chmod a+x mkhtml
+sudo cp mkhtml /usr/local/bin
 
 /usr/local/bin is usually in your PATH. You can check it via echo $PATH. Now you can simply do
 mkhtml.sh and it'll execute.
