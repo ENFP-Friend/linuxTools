@@ -1,21 +1,14 @@
 # linuxTools
 ----------------------
 
+## fixOverScan
+
+Forces overscan to be turned off on BenQ FP22W. Replace HDMI-1-1 with the monitor displayed using "xrandr" then move script to /usr/local/bin and add exec_always fixOverScan into the .config/i3/config file
+
 ## Mkhtml
 
 Adds a generic .html file to your current directory and links it to /stylesheet/style.css.
 
-## Install
-
-chmod a+x mkhtml
-sudo cp mkhtml/usr/local/bin
-
-/usr/local/bin is usually in your PATH. You can check it via echo $PATH. Now you can simply do
-mkhtml.sh and it'll execute.
-
-If more tools are added I'll make a easy install script but for now this will do.
-
-//Credits go to https://www.reddit.com/user/Rusty-Swashplate/ for helping me improve my original https://www.reddit.com/r/linux/comments/kst3dc/mkhtml_i_created_a_tool_to_populate_htmlcss_files/ //
 
 ## Use
 
@@ -118,3 +111,17 @@ Will take an input and date it with it's input to ~/note.txt
 ## Use 
 
 tn this is a note
+
+
+## Install
+
+sudo chmod a+x mkhtml
+sudo cp mkhtml /usr/local/bin
+
+/usr/local/bin is usually in your PATH. You can check it via echo $PATH. Now you can simply do
+mkhtml.sh and it'll execute.
+
+If more tools are added I'll make a easy install script but for now this will do.
+
+//Credits go to https://www.reddit.com/user/Rusty-Swashplate/ for helping me improve my original https://www.reddit.com/r/linux/comments/kst3dc/mkhtml_i_created_a_tool_to_populate_htmlcss_files/ //
+
